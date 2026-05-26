@@ -8,11 +8,11 @@ function Hero() {
           <p className="text-blue-400 mb-3">Hi, I'm</p>
 
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
-            Avishka <span className="text-blue-400">Kavinda</span>
+            Avishka <span className="text-blue-400">Jayakodi</span>
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-semibold text-cyan-400 mb-6">
-            AI & Full Stack Developer
+            Full Stack & AI Developer
           </h2>
 
           <p className="text-gray-300 mb-8 leading-relaxed">
