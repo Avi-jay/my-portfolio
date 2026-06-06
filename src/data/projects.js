@@ -6,7 +6,6 @@ export const projects = [
     images: [
       "/projects/sentiment-1.png",
       "/projects/sentiment-2.png",
-      "/projects/sentiment-3.png",
     ],
     tech: ["Python", "Flask", "Machine Learning"],
     github: "https://github.com/yourusername/project",
