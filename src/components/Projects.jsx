@@ -1,4 +1,5 @@
 import { projects } from "../data/projects";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
@@ -9,50 +10,7 @@ function Projects() {
 
         <div className="grid md:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:-translate-y-2 transition"
-            >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="h-48 w-full object-cover"
-              />
-
-              <div className="p-5">
-                <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-
-                <p className="text-gray-400 text-sm mb-4">
-                  {project.description}
-                </p>
-
-                <div className="flex flex-wrap gap-2 mb-5">
-                  {project.tech.map((item, i) => (
-                    <span
-                      key={i}
-                      className="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full"
-                    >
-                      {item}
-                    </span>
-                  ))}
-                </div>
-
-                <div className="flex gap-3">
-                  <a
-                    href={project.demo}
-                    className="text-sm text-cyan-400 hover:underline"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href={project.github}
-                    className="text-sm text-gray-300 hover:underline"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
+            <ProjectCard key={index} project={project} />
           ))}
         </div>
       </div>

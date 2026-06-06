@@ -2,8 +2,26 @@ import profile from "../assets/profile.png";
 
 function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20">
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
+    >
+      {/* Background Animation */}
+      <div className="hero-bg absolute inset-0 z-0 pointer-events-none">
+        <div className="grid-animation"></div>
+
+        <div className="floating-icons">
+          <span>React</span>
+          <span>Node</span>
+          <span>MongoDB</span>
+          <span>Python</span>
+          <span>AI</span>
+          <span>Tailwind</span>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <p className="text-blue-400 mb-3">Hi, I'm</p>
 
