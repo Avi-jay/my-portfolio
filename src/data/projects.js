@@ -7,8 +7,8 @@ export const projects = [
       "/projects/sentiment-1.png",
       "/projects/sentiment-2.png",
     ],
-    tech: ["Python", "Flask", "Machine Learning"],
-    github: "https://github.com/yourusername/project",
+    tech: ["Python", "Flask", "Machine Learning", "Numpy", "Pandas"],
+    github: "https://github.com/Avi-jay/Sentiment_Analysis_Project",
     demo: "https://your-demo-link.com",
   },
   {
@@ -20,8 +20,8 @@ export const projects = [
       "/projects/pos-2.png",
       "/projects/pos-3.png",
     ],
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/yourusername/project",
+    tech: ["React", "Node.js", "MongoDB","TailwindCSS","JWT"],
+    github: "https://github.com/Avi-jay/smartmart-pos-system",
     demo: "https://your-demo-link.com",
   },
   {
@@ -32,8 +32,8 @@ export const projects = [
       "/projects/auth-1.png",
       "/projects/auth-2.png",
     ],
-    tech: ["React", "Express", "JWT"],
-    github: "https://github.com/yourusername/project",
+    tech: ["React", "MongoDB", "Express", "JWT"],
+    github: "https://github.com/Avi-jay/mern-auth-app",
     demo: "https://your-demo-link.com",
   },
 ];
