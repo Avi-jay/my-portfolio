@@ -32,7 +32,6 @@ export const projects = [
     images: [
       "/projects/auth-1.png",
       "/projects/auth-2.png",
-      "/projects/auth-3.png",
     ],
     tech: ["React", "Express", "JWT"],
     github: "https://github.com/yourusername/project",
