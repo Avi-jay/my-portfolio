@@ -9,7 +9,7 @@ export const projects = [
     ],
     tech: ["Python", "Flask", "Machine Learning", "Numpy", "Pandas"],
     github: "https://github.com/Avi-jay/Sentiment_Analysis_Project",
-    demo: "https://your-demo-link.com",
+    demo: "",
   },
   {
     title: "SmartMart POS System",
@@ -22,7 +22,7 @@ export const projects = [
     ],
     tech: ["React", "Node.js", "MongoDB","TailwindCSS","JWT"],
     github: "https://github.com/Avi-jay/smartmart-pos-system",
-    demo: "https://your-demo-link.com",
+    demo: "",
   },
   {
     title: "MERN Auth System",
@@ -34,6 +34,22 @@ export const projects = [
     ],
     tech: ["React", "MongoDB", "Express", "JWT"],
     github: "https://github.com/Avi-jay/mern-auth-app",
-    demo: "https://your-demo-link.com",
+    demo: "",
+  },
+
+  {
+    title: "Hospital Queue Management System",
+    description:
+      "Hospital Queue Management system, IOT device, React and Firebase web app.",
+    images: [
+      "/projects/carealert-1.png",
+      "/projects/carealert-2.png",
+      "/projects/carealert-3.png",
+      "/projects/carealert-4.png",
+      "/projects/carealert-5.png",
+    ],
+    tech: ["React","Firebase","IOT", "Arduino"],
+    github: "https://www.linkedin.com/posts/avishka-jayakodi-797410343_healthcareinnovation-iot-queuemanagement-activity-7335908951676366848-aL36?utm_source=share&utm_medium=member_android&rcm=ACoAAFYGNWMB_EgC9Du23QkGiKVmB0lp2Fl0jhE",
+    demo: "",
   },
 ];
