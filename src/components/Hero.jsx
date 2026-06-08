@@ -1,4 +1,5 @@
 import profile from "../assets/profile.png";
+import { FaDownload } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -38,7 +39,7 @@ function Hero() {
             Machine Learning, and modern UI technologies.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4">
             <a
               href="#projects"
               className="px-6 py-3 bg-blue-500 rounded-full hover:bg-blue-600 transition"
@@ -51,6 +52,15 @@ function Hero() {
               className="px-6 py-3 border border-blue-400 rounded-full hover:bg-blue-400/10 transition"
             >
               Contact Me
+            </a>
+
+            <a
+              href="/cv/AVISHKA-JAYAKODI-CV.pdf"
+              download
+              className="px-6 py-3 border border-cyan-400 text-cyan-400 rounded-full hover:bg-cyan-400/10 transition flex items-center gap-2"
+            >
+              <FaDownload />
+              Download CV
             </a>
           </div>
         </div>
