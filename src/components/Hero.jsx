@@ -55,7 +55,7 @@ function Hero() {
             </a>
 
             <a
-              href="/cv/AVISHKA-JAYAKODI-CV.pdf"
+              href="/cv/Avishka_Jayakodi_CV.pdf"
               download
               className="px-6 py-3 border border-cyan-400 text-cyan-400 rounded-full hover:bg-cyan-400/10 transition flex items-center gap-2"
             >
